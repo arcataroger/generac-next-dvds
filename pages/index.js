@@ -48,10 +48,12 @@ export default function Home({dvdsWithMoreInfo}) {
 
             <main>
                 <div className="container">
-                    <h1>David's DVDs</h1>
+                    <h1 className={'text-center'}>David's DVDs <img src={'/favicon.png'} className={'titleDvd'}
+                                                                    alt={""}/></h1>
+                    <h2 className={'text-center'}>Subtitle goes here</h2>
                     <p>Hi. I'm David, and I've got quite the collection of DVDs for sale.</p>
 
-                    <h2>Available DVDs</h2>
+                    <h2>{listOfDvds.length} DVDs for sale</h2>
                     <div className="dvdCardContainer">
 
                         <Row xs={2} sm={3} md={5}>
@@ -71,7 +73,12 @@ export default function Home({dvdsWithMoreInfo}) {
                     <h2>Your shopping cart</h2>
                     {dvdsInCart && dvdsInCart.length
                         ? <>
-                            {dvdsInCart.map(dvd => <CartItem key={dvd.uuid} dvdData={dvd} clickHandler={() => toggleCartByUUID(dvd.uuid)}/>)}
+                            <Row>
+                                <Col lg={3}>
+                                    {dvdsInCart.map(dvd => <CartItem key={dvd.uuid} dvdData={dvd}
+                                                                     clickHandler={() => toggleCartByUUID(dvd.uuid)}/>)}
+                                </Col>
+                            </Row>
                             <CartTotal dvdsInCart={dvdsInCart}/>
                         </>
                         : 'Your cart is currently empty.'

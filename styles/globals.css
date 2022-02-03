@@ -2,6 +2,10 @@ main {
   padding: 10px;
 }
 
+.titleDvd {
+  height: 1em;
+}
+
 .dvdCard {
   height: 100%;
 }

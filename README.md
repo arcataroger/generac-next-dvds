@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# David's DVDs
 
-## Getting Started
+## Notes
 
-First, run the development server:
+- Subtitle was not provided
+- Used DVD png as favicon and title icon instead of emoji, to prevent unicode issues and device differences
+- Used simple JSON file instead of DB
+- Used React-Bootstrap for basic layout
+- Instead of "select multiple to add to cart" paradigm, gave each movie its own Add to Cart button for better UX (don't deviate from established ecommerce norms)
+- 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Client Requests
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [x] Put the title and subtitle in the center
+- [x] I don't want a serifed font
+- [x] I'd really like to have a DVD emoji in the title
+- [x] I've included my DVD inventory here (below) - please add this data to the "database"
+- [x] Right under the title, show a count of how many DVDs I currently have for sale
+- [x] Use grid
+- [x] When a user selects a DVD, show it as "selected" somehow
+- [x] Put an "Add to Cart" button at the bottom
+- [x] When a user clicks "Add to Cart", move all of the selected DVDs to a cart area
+- [x] When DVDs are in the cart, show the total cost
+- If there's time, please help me start designing my API - you can use the API.md file
+- If there's even more time, could you try to update the design a bit to be more user friendly?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Current DVD Inventory
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Mission: Impossible (1996) $4.99
+- Alien (1979) $11.99
+- Spirited Away (2001) $24.99
+- Rashomon (1950) $29.99
+- Hot Fuzz (2007) $6.99

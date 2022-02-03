@@ -7,7 +7,7 @@ export default function CartTotal({ dvdsInCart }) {
 
     return (
         <>
-            <h3>Cart total</h3>
+            <h3 className={'mt-3'}>Cart total</h3>
             ${total.toFixed(2)}
         </>
     );
