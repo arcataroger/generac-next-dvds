@@ -57,7 +57,9 @@ export default function Home({dvdsWithMoreInfo}) {
                     <div className="dvdCardContainer">
 
                         <Row xs={2} sm={3} md={5}>
-                            {dvdsWithMoreInfo.map((dvd) => (
+                            {dvdsWithMoreInfo
+                                .sort((a,b) => b.releaseYear-a.releaseYear)
+                                .map((dvd) => (
                                 <Col key={dvd.uuid} className={'mb-4'}>
                                     <DVDCard
                                         dvdData={dvd}

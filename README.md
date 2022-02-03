@@ -7,7 +7,8 @@
 - Used simple JSON file instead of DB
 - Used React-Bootstrap for basic layout
 - Instead of "select multiple to add to cart" paradigm, gave each movie its own Add to Cart button for better UX (don't deviate from established ecommerce norms)
-- 
+- Did not implement API, but can if desired
+- A lot of UX work still remaining
 
 ## Client Requests
 
@@ -17,6 +18,7 @@
 - [x] I've included my DVD inventory here (below) - please add this data to the "database"
 - [x] Right under the title, show a count of how many DVDs I currently have for sale
 - [x] Use grid
+- [x] Order the DVDs in the grid by Release Year, descending.
 - [x] When a user selects a DVD, show it as "selected" somehow
 - [x] Put an "Add to Cart" button at the bottom
 - [x] When a user clicks "Add to Cart", move all of the selected DVDs to a cart area
