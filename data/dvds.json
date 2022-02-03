@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "e9de8e0531484f1fb9eee199e26f8691",
+    "title": "Mission Impossible",
+    "releaseYear": 1996,
+    "price": 4.99
+  },
+  {
+    "uuid": "d4cd8514be444a9291fa41749026c60d",
+    "title": "Alien",
+    "releaseYear": 1979,
+    "price": 11.99
+  },
+  {
+    "uuid": "4fff1117f43343afb516251381d8864b",
+    "title": "Spirited Away",
+    "releaseYear": 2001,
+    "price": 24.99
+  },
+  {
+    "uuid": "9378736d5a7f4d17bfe3e49f3a7e4a35",
+    "title": "Rashomon",
+    "releaseYear": 1950,
+    "price": 29.99
+  },
+  {
+    "uuid": "e3193d556d5e49b9a1b3eecaa03b8194",
+    "title": "Hot Fuzz",
+    "releaseYear": 2007,
+    "price": 6.99
+  }
+]
