@@ -9,6 +9,8 @@
 - Instead of "select multiple to add to cart" paradigm, gave each movie its own Add to Cart button for better UX (don't deviate from established ecommerce norms)
 - Did not implement API, but can if desired
 - A lot of UX work still remaining
+- Uses Next.js instead of Replit's environment
+- Uses The Movie Database's free API as a demo (key not secretized)
 
 ## Client Requests
 
